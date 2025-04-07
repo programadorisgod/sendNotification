@@ -1,0 +1,17 @@
+{
+  "name": "sendnotification",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --no-warnings --env-file=.env index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.14.0",
+    "twilio": "^5.5.2"
+  }
+}
